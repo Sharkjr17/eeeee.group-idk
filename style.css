@@ -1,18 +1,20 @@
 html, body {
-    height: 100%;
-    width: 100%;
+     font-family:monospace;
      background-color: #000000;
   }
+
+body * {
+    font-family:monospace;
+}
   
   .dropdown-content {
-    display: none;
+    opacity: 10%;
     position: absolute;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     background-color: #333;
   }
   .dropdown:hover .dropdown-content {
-    display: block;
+    opacity: 100%;
   }
   .dropdown-content {
     display: none;
